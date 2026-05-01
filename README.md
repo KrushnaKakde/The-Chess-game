@@ -5,9 +5,7 @@
 ![GitHub license](https://img.shields.io/github/license/KrushnaKakde/chess)
 ![Node.js CI](https://img.shields.io/github/workflow/status/KrushnaKakde/chess/Node.js%20CI?label=build)
 
-<p align="center">
-	<img src="https://user-images.githubusercontent.com/your-screenshot.png" alt="Chess Game Screenshot" width="600"/>
-</p>
+![alt text](image.png)
 
 ## Overview
 
@@ -77,9 +75,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
+
 ## 📷 Screenshots
 
-_Add your game screenshots here!_
+![Chess Game Screenshot](public/chess-screenshot.png)
+
 Open `http://localhost:3000` in your browser.
 
 ## How It Works
