@@ -1,44 +1,85 @@
-# The Chess Game
 
-A real-time, browser-based multiplayer chess game built with Node.js, Express, Socket.IO, and chess.js. Players can join as White or Black, with spectators allowed. The board supports drag-and-drop moves and enforces turn-based gameplay.
+# ♟️ Chess Game
 
-## Features
+![GitHub repo size](https://img.shields.io/github/repo-size/KrushnaKakde/chess)
+![GitHub license](https://img.shields.io/github/license/KrushnaKakde/chess)
+![Node.js CI](https://img.shields.io/github/workflow/status/KrushnaKakde/chess/Node.js%20CI?label=build)
 
-- **Real-time multiplayer** via WebSocket (Socket.IO)
-- **Drag-and-drop chess board** with piece Unicode symbols
-- **Turn validation** (only White/Black can move on their turn)
-- **Spectator mode** for additional viewers
-- **Responsive UI** with Tailwind CSS
-- **FEN-based board state sync** after every move
+<p align="center">
+	<img src="https://user-images.githubusercontent.com/your-screenshot.png" alt="Chess Game Screenshot" width="600"/>
+</p>
 
-## Tech Stack
+## Overview
 
-- **Backend**: Node.js, Express, Socket.IO
-- **Frontend**: Vanilla JS, HTML, Tailwind CSS
-- **Chess logic**: chess.js
-- **Real-time**: WebSocket (Socket.IO)
+**Chess** is a real-time, browser-based multiplayer chess game built with Node.js, Express, Socket.IO, and chess.js. Play as White or Black, or spectate live games. The board supports drag-and-drop moves and enforces turn-based gameplay.
 
-## Prerequisites
+---
+
+## 🚀 Features
+
+- Real-time multiplayer (Socket.IO)
+- Drag-and-drop chess board
+- Turn validation (enforces chess rules)
+- Spectator mode
+- Responsive UI (Tailwind CSS)
+- FEN-based board state sync
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology                |
+|-----------|---------------------------|
+| Backend   | Node.js, Express, Socket.IO |
+| Frontend  | Vanilla JS, HTML, Tailwind CSS |
+| Chess Logic | chess.js                |
+
+---
+
+## 📦 Prerequisites
 
 - Node.js (v14+)
 - npm
 
-## Installation
+---
+
+## ⚡ Installation
 
 ```bash
-git clone https://github.com/KrushnaKakde/The-Chess-game.git
-cd The-Chess-game
+git clone https://github.com/KrushnaKakde/chess.git
+cd chess
 npm install
 ```
 
-## Running the App
+---
+
+## ▶️ Running the App
 
 ```bash
 npm start
 # or for development with auto-reload:
-npm run dev
+
 ```
 
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- [chess.js](https://github.com/jhlywa/chess.js)
+- [Socket.IO](https://socket.io/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📷 Screenshots
+
+_Add your game screenshots here!_
 Open `http://localhost:3000` in your browser.
 
 ## How It Works
